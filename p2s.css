@@ -1,0 +1,128 @@
+
+   .car{
+     font-family:'Droid Arabic Naskh', serif;
+     width: 45%;
+     height: 410px;
+     float: right;
+     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("yo1.jpg");
+        background-size:600px 480px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border: 1px solid white;
+     border-radius: 5px;
+     padding: 20px;
+     margin-right: 2.5%;
+   }.car-left{
+     margin-left: 2%;
+   }
+
+   .yoga{
+     font-family:'Droid Arabic Naskh', serif;
+     width: 45%;
+     height: 410px;
+     float: right;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("yo.jpg ");
+        background-size:600px 480px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border: 1px solid white;
+     border-radius: 5px;
+     padding: 20px;
+     margin-right: 2.5%;
+   }.yoga-left{
+     margin-left: 2%;
+   }
+
+
+   .footer{
+     font-size: 20px;
+     text-align: center;
+     color: var(--primary-color);
+     margin-top: 80px;
+   }
+
+   .bela.yoga.more{
+     position: absolute;
+     float: right;
+     margin-right: 130px;
+   }
+
+.box{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+.riss{
+  width: 45%;
+  height: 410px;
+  float: right;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("res.jpg");
+     background-size:600px 480px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 2.5%;
+}.riss-left{
+  margin-left: 2%;
+}
+
+.bela{
+  width: 45%;
+  height: 410px;
+  float: right;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("bela.jpg ");
+     background-size:600px 480px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 2.5%;
+}.bela-left{
+  margin-left: 2%;
+}
+
+.footer{
+  font-family:'Droid Arabic Naskh', serif;
+  border-radius: 25px;
+  font-size: 15px;
+  text-align: center;
+background-color:#333333;
+  opacity: 0.6;
+  color:white ;
+  margin-top: 80px;
+    font-size: 27px;
+}
+.header{
+  font-size: 27px;
+  border-radius: 25px;
+  padding: 3px;
+  color: lightgray;
+  font-weight: bold;
+}
+.more {
+  position: absolute;
+font-family:'Droid Arabic Naskh', serif;
+  float: right;
+  margin-right: 130px;
+    text-align: center;
+color:black;
+  background-color:white;
+  border-radius: 25px;
+    opacity: 0.7;
+
+  }
+  .more:hover {
+    background-color:#9ca9ae;
+    color: black;
+  }
+
+.box h2{
+  font-family:'Droid Arabic Naskh', serif;
+  border-radius: 25px;
+  font-size: 20px;
+  text-align: center;
+
+  opacity: 0.7;
+  color:black;
+    background-color:white;
+}
