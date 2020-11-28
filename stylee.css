@@ -1,4 +1,4 @@
-h4{
+h6{
   font-family:'Droid Arabic Naskh', serif;
   font-size:100px;
 color: black;
@@ -11,25 +11,26 @@ margin:30px;
 table {
   font-family: 'Droid Arabic Naskh', serif;
   border-collapse: collapse;
-  width: 100%;
-
+  width: 80%;
+padding: auto;
+  margin: auto;
 }
 .cc{
   font-family:'Droid Arabic Naskh', serif;
 
-
-  margin: auto;
   border-width: 3px;
   border-color: black;
-
+  height: 50px;
 }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  margin: 6px;
+  padding: 5px;
     border-width: 3px;
   border-color: black;
+
 }
 
 tr:nth-child(even) {
@@ -50,6 +51,7 @@ a:hover {
   background-color:black;
   color: white;
 }
+
 
 
 .round {
