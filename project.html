@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Healthy Life </title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+     <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css">
+  </head>
+  <body>
+    <div class="w3-bar w3-black">
+      <span class=" branding w3-bar-item w3-mobile"> healthy life </span>
+      <span class="w3-right w3-mobile " >
+  <a href="project.html"class="w3-bar-item w3-button w3-mobile w3-hover-red">الرئـيسـية</a>
+  <a href="p2.html"class="w3-bar-item w3-button w3-mobile w3-hover-red">الريـاضة</a>
+  <a href="p3.php"class="w3-bar-item w3-button w3-mobile w3-hover-red">الأدوات الـرياضية</a>
+  <a href="mailto:web.contact122@gmail.com"class="w3-bar-item w3-button w3-mobile w3-hover-red">تواصـل معنا</a>
+</span>
+</div>
+<section
+  class="showcase" >
+  <div class="w3-container w3-center"">
+    <p id="parag" class="w3-animate-opacity"> لحياة صحية وجسم مثالي يجب علينا اتباع نظام غذائي جيد وممارسة الرياضة</p>
+    <hr>
+    <p id="ptwo">  هدفنا في هذا الموقع هو توضيح أهمية الرياضة والغذاء الصحي ومشاركة بعض التمارين التي
+      قد تساعدك في بدء مشوارك الرياضي </p>
+  </div>
+</section>
+<section class="section  w3-black">
+     <div class="w3-container w3-center">
+       <h2>اهمية الغذاء الصحي </h2>
+     </div>
+   </section>
+     <div class="list">
+<ul>
+  <li>تقوية الجسم وامداده بالطاقة والحيوية والنشاط </li>
+  <li>زيادة قدرة جهاز المناعة على مواجهة الامراض</li>
+  <li>بناء العضلات والخلايا بشكل سليم</li>
+</ul>
+  </div>
+  <section class="section w3-black">
+       <div class="w3-container w3-center">
+<h2>أهمية الرياضة </h2>
+ </div>
+ </section>
+<ul>
+  <li>المحافظة على قوة العظام والعضلات</li>
+
+  <li>المحافظة على صحة الدماغ والذاكرة</li>
+<li> تحسين النوم</li>
+
+</ul>
+<section class="section w3-light-grey">
+  <div class="w3-container w3-center">
+<h2> تعرف على كتلة جسمك</h2>
+<form>
+<div class="idk">
+  (الوزن(كجم <input type="text" id="firstNumber"  placeholder = "مثال : 60 كجم" required><br>
+(الطول(بالمتر <input type="text" id="secondNumber"placeholder = "مثال : 1.6 متر" required><br>
+
+<input type="button" onClick="divideBy()" Value="أحـسب" />
+
+</form>
+<p>:كتلة جسمك هي <br>
+<span id = "result"></span>
+<span id = "ww"></span>
+</p>
+<script>
+
+
+function divideBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+
+var result = document.getElementById("result").innerHTML =(num1 / (num2*num2)).toFixed(2);
+var x = document.getElementById("ww");
+var y = document.getElementById("result");
+  y.style.fontSize = "20px";
+var greeting;
+
+ if ( result< 15) {
+   greeting = "نقص حاد جدا";
+   x.style.fontSize = "15px";
+   x.style.color = "red";
+ }
+  else if (result >= 15 && result <=16) {
+   greeting = "نقص حاد";
+   x.style.fontSize = "15px";
+   x.style.color = "red";
+ }
+  else if (result >= 17 && result <19) {
+   greeting = "نقص في الوزن";
+   x.style.fontSize = "15px";
+   x.style.color = "orange";
+}
+else if (result >= 19 && result <=25) {
+greeting ="وزن طبيعي";
+x.style.fontSize = "15px";
+x.style.color = "green";
+}
+else if (result>25 && result <=30) {
+greeting = "زيادة في الوزن";
+x.style.fontSize = "15px";
+x.style.color = "orange";
+}
+else if (result > 30 && result <=35) {
+greeting = " سمنة من الدرجة الأولى";
+x.style.fontSize = "15px";
+x.style.color = "orange";
+}
+else if (result > 35 && result <=40) {
+greeting = "سمنة من الدرجة الثانية";
+x.style.fontSize = "15px";
+x.style.color = "red";
+}
+else   {
+greeting = "سمنة من الدرجة الثالثة";
+x.style.fontSize = "15px";
+x.style.color = "red";
+}
+//المعلومات جميعها مصدرها وزارة الصحة 
+ document.getElementById("ww").innerHTML =   greeting;
+}
+ </script>
+<a href="p2.html" class="next">التالي&raquo;</a>
+
+</section>
+
+  </body>
+</html>

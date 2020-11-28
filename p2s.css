@@ -4,7 +4,7 @@
      width: 45%;
      height: 410px;
      float: right;
-     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("yo1.jpg");
+     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("yo1.jpg");/* مصدر الصورةruntastic*/
         background-size:600px 480px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      border: 1px solid white;
@@ -20,7 +20,7 @@
      width: 45%;
      height: 410px;
      float: right;
-     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("yo.jpg ");
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("yo.jpg "); /* مصدر الصورةnarfa*/
         background-size:600px 480px;
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      border: 1px solid white;
@@ -55,7 +55,7 @@
   width: 45%;
   height: 410px;
   float: right;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("res.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("res.jpg"); /*musclesbuilding مصدر الصورة*/
      background-size:600px 480px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid white;
@@ -70,7 +70,7 @@
   width: 45%;
   height: 410px;
   float: right;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("bela.jpg ");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),  url("bela.jpg ");/* مصدر الصورةvivisaludable*/
      background-size:600px 480px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 1px solid white;
